@@ -1,13 +1,3 @@
-# Luke's build of st - the simple (suckless) terminal
-
-The [suckless terminal (st)](https://st.suckless.org/) with some additional features that make it literally the best terminal emulator ever:
-
-## Unique features (using dmenu)
-
-+ **follow urls** by pressing `alt-l`
-+ **copy urls** in the same way with `alt-y`
-+ **copy the output of commands** with `alt-o`
-
 ## Bindings for
 
 + **scrollback** with `alt-↑/↓` or `alt-pageup/down` or `shift` while scrolling the mouse
