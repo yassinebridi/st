@@ -221,7 +221,7 @@ MouseKey mkeys[] = {
 	{ Button5,              TERMMOD,        zoom,           {.f =  -1} },
 };
 
-
+static char *openurlcmd[] = { "/bin/sh", "-c", "st-urlhandler", "externalpipe", NULL };
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
@@ -254,6 +254,7 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_J,           zoom,           {.f = -1} },
 	{ TERMMOD,              XK_U,           zoom,           {.f = +2} },
 	{ TERMMOD,              XK_D,           zoom,           {.f = -2} },
+	{ MODKEY,               XK_o,           externalpipe,   {.v = openurlcmd } },
 };
 
 /*
